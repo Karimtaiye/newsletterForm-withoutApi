@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="./Style/Newsletter.css">
+  <link rel="stylesheet" href="./Style/NewsletterMobile.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+  <main>-
+    <section class="Newsletter_Container">
+      <div class="Input_Part">
+        <h1>Stay Updated!</h1>
+        <div class="Join_Div">
+          <span>Join 60,000+ product managers recieving monthly updates on:</span> 
+        </div>
+        <div class="Discovery_Div">
+          <article>
+            <img src="./assets/images/icon-success.svg" alt="">
+            <span>Product discovery and building what matters</span>
+          </article>
+          <article>
+            <img src="./assets/images/icon-success.svg" alt="">
+            <span>Measuring to ensure updates are a success</span>
+          </article>
+          <article>
+            <img src="./assets/images/icon-success.svg" alt="">
+            <span>And much more</span>
+          </article>
+        </div>
+        <div class="Email_Div">
+          <div style="display: flex; gap: 9%; width: 100%;"><span>Email address</span> <h6 id="errmsg" style="color: red;">invalid email</h6></div>
+          <input id="Input" placeholder="email@company.com" type="email">
+        </div>
+        <div class="Submit_Div">
+          <button id="Submit_Btn"><a id="link" >Suscribe to monthly newsletter</a></button>
+        </div>
+      </div>
+      <div class="Image_Part">
+        <img src="./assets/images/illustration-sign-up-desktop.svg" alt="">
+      </div>
+    </section>
+
+  </main>
+  
+
+  <script src="./js/Newsletter.js"></script>
+</body>
+</html>
